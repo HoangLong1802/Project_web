@@ -1,0 +1,54 @@
+
+#productlist {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #productlist td,
+  #productlist th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #productlist tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #productlist tr:hover {
+    background-color: #ddd;
+  }
+  
+  #productlist a {
+    border: black solid 1px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20px;
+    height: 10px;
+  }
+  
+  #productlist th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    color: white;
+  }
+  
+  button {
+    background-color: #2f54eb;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  button a {
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  

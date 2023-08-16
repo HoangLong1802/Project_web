@@ -1,0 +1,115 @@
+body a {
+  text-decoration: none;
+  color: black;
+  overflow: visible;
+}
+
+body button:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.Sign_up__page--wrap {
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.top_navication-lazadi {
+  width: 100%;
+  background-color: rgb(237, 232, 232);
+  height: 100px;
+}
+
+.Sign_up__infor {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
+  align-content: space-between;
+  flex-wrap: wrap;
+  margin: 10vh 70vh;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.Sign_up__infor h2 {
+  color: purple;
+  text-align: left;
+}
+
+.mid__form--wrap {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  height: 400px;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px 0px;
+}
+
+.btn:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.mid__form--wrap label {
+  font-size: 20px;
+}
+
+.Sign_up__submit {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  padding-right: 40px;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.Sign_up__btn--wrap {
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.link__wrap {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+}
+
+.inp__btn--wrap {
+  height: 30px;
+  padding: 10px;
+  border: 1px solid rgb(195, 193, 193);
+  border-radius: 5px;
+}
+
+.btn__wrap {
+  height: 30px;
+  width: 100px;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 7px;
+}
+
+.form__inp--wrap {
+  font-size: 14px;
+  height: 60px;
+  padding: 10px;
+  border: 1px solid rgb(197, 195, 195);
+  border-radius: 10px;
+}
+
+#signup__form--wrap td {
+  padding-top: 20px;
+  padding-right: 10px;
+}
